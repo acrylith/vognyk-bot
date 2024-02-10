@@ -1,0 +1,21 @@
+{
+  "name": "vognyk-bot",
+  "version": "1.0.0",
+  "description": "telegram bot for downloading videos from tiktok",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env index.js"
+  },
+  "keywords": [
+    "tiktok",
+    "telegram",
+    "bot"
+  ],
+  "author": "Acry",
+  "license": "ISC",
+  "dependencies": {
+    "download": "^8.0.0",
+    "node-telegram-bot-api": "^0.64.0"
+  }
+}
